@@ -7,10 +7,8 @@ namespace _05heranca
 		private double _salario;
 		
 		//construtor
-		public Colaborador(string nome, int idade, string cargo, double salario)
+		public Colaborador(string nome, int idade, string cargo, double salario):base(nome,idade)
 		{
-			Nome = nome; //herdado de Pessoa
-			Idade = idade; //herdado de Pessoa
 			_cargo = cargo;
 			_salario = salario;
 			
